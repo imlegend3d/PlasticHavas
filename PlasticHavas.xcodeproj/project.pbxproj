@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63111CDD254C7AC200B99A61 /* RedditPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 63111CDC254C7AC200B99A61 /* RedditPost.m */; };
+		63111CEE254CEF8200B99A61 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63111CED254CEF8100B99A61 /* DetailVC.swift */; };
+		63111CF6254CF80400B99A61 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63111CF5254CF80400B99A61 /* CustomImageView.swift */; };
+		63111CFB254CF8BB00B99A61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63111CFA254CF8BB00B99A61 /* Constants.swift */; };
+		6312C711254B5D4100C646AC /* HelperCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312C710254B5D4100C646AC /* HelperCodable.swift */; };
+		6312C728254B62AB00C646AC /* RedditPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312C727254B62AB00C646AC /* RedditPost.swift */; };
 		6340925B254B270000BEA380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340925A254B270000BEA380 /* AppDelegate.swift */; };
 		6340925D254B270000BEA380 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340925C254B270000BEA380 /* SceneDelegate.swift */; };
-		6340925F254B270000BEA380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340925E254B270000BEA380 /* ViewController.swift */; };
 		63409262254B270000BEA380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63409260254B270000BEA380 /* Main.storyboard */; };
 		63409265254B270000BEA380 /* PlasticHavas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63409263254B270000BEA380 /* PlasticHavas.xcdatamodeld */; };
 		63409267254B270400BEA380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63409266254B270400BEA380 /* Assets.xcassets */; };
 		6340926A254B270400BEA380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63409268254B270400BEA380 /* LaunchScreen.storyboard */; };
 		63409275254B270500BEA380 /* PlasticHavasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63409274254B270500BEA380 /* PlasticHavasTests.swift */; };
 		63409280254B270500BEA380 /* PlasticHavasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340927F254B270500BEA380 /* PlasticHavasUITests.swift */; };
+		6340929C254B4D5D00BEA380 /* ViewControllerInOBJC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6340929B254B4D5D00BEA380 /* ViewControllerInOBJC.m */; };
+		63A368B4254B8B750081A170 /* RedditPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A368B2254B8B750081A170 /* RedditPostTableViewCell.swift */; };
+		63A368B5254B8B750081A170 /* redditPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A368B3254B8B750081A170 /* redditPostTableViewCell.xib */; };
+		63A368C2254BD5570081A170 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A368C1254BD5570081A170 /* NetworkCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63111CDB254C7AC200B99A61 /* RedditPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedditPost.h; sourceTree = "<group>"; };
+		63111CDC254C7AC200B99A61 /* RedditPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditPost.m; sourceTree = "<group>"; };
+		63111CED254CEF8100B99A61 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		63111CF5254CF80400B99A61 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		63111CFA254CF8BB00B99A61 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6312C710254B5D4100C646AC /* HelperCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperCodable.swift; sourceTree = "<group>"; };
+		6312C727254B62AB00C646AC /* RedditPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditPost.swift; sourceTree = "<group>"; };
 		63409257254B270000BEA380 /* PlasticHavas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlasticHavas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6340925A254B270000BEA380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6340925C254B270000BEA380 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6340925E254B270000BEA380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63409261254B270000BEA380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63409264254B270000BEA380 /* PlasticHavas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlasticHavas.xcdatamodel; sourceTree = "<group>"; };
 		63409266254B270400BEA380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +66,12 @@
 		6340927B254B270500BEA380 /* PlasticHavasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlasticHavasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6340927F254B270500BEA380 /* PlasticHavasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticHavasUITests.swift; sourceTree = "<group>"; };
 		63409281254B270500BEA380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63409296254B4D5900BEA380 /* PlasticHavas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlasticHavas-Bridging-Header.h"; sourceTree = "<group>"; };
+		6340929A254B4D5C00BEA380 /* ViewControllerInOBJC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerInOBJC.h; sourceTree = "<group>"; };
+		6340929B254B4D5D00BEA380 /* ViewControllerInOBJC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerInOBJC.m; sourceTree = "<group>"; };
+		63A368B2254B8B750081A170 /* RedditPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RedditPostTableViewCell.swift; path = "PlasticHavas/Custome Cell/RedditPostTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		63A368B3254B8B750081A170 /* redditPostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = redditPostTableViewCell.xib; path = "PlasticHavas/Custome Cell/redditPostTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		63A368C1254BD5570081A170 /* NetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +99,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63111CDA254C7A5500B99A61 /* Data Object */ = {
+			isa = PBXGroup;
+			children = (
+				63111CDB254C7AC200B99A61 /* RedditPost.h */,
+				63111CDC254C7AC200B99A61 /* RedditPost.m */,
+			);
+			path = "Data Object";
+			sourceTree = "<group>";
+		};
+		6312C718254B60F500C646AC /* OBJC ViewController  */ = {
+			isa = PBXGroup;
+			children = (
+				6340929A254B4D5C00BEA380 /* ViewControllerInOBJC.h */,
+				6340929B254B4D5D00BEA380 /* ViewControllerInOBJC.m */,
+			);
+			path = "OBJC ViewController ";
+			sourceTree = "<group>";
+		};
+		6312C719254B611E00C646AC /* Swift ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63111CED254CEF8100B99A61 /* DetailVC.swift */,
+			);
+			path = "Swift ViewControllers";
+			sourceTree = "<group>";
+		};
+		6312C71F254B615E00C646AC /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				6340925A254B270000BEA380 /* AppDelegate.swift */,
+				6340925C254B270000BEA380 /* SceneDelegate.swift */,
+				63409266254B270400BEA380 /* Assets.xcassets */,
+				63409268254B270400BEA380 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		6312C720254B616F00C646AC /* Helper FIles */ = {
+			isa = PBXGroup;
+			children = (
+				63111CFA254CF8BB00B99A61 /* Constants.swift */,
+				6312C710254B5D4100C646AC /* HelperCodable.swift */,
+			);
+			path = "Helper FIles";
+			sourceTree = "<group>";
+		};
+		6312C724254B61A900C646AC /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				63409263254B270000BEA380 /* PlasticHavas.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		6312C726254B622900C646AC /* JsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				6312C727254B62AB00C646AC /* RedditPost.swift */,
+			);
+			path = JsonModel;
+			sourceTree = "<group>";
+		};
 		6340924E254B270000BEA380 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +184,18 @@
 		63409259254B270000BEA380 /* PlasticHavas */ = {
 			isa = PBXGroup;
 			children = (
-				6340925A254B270000BEA380 /* AppDelegate.swift */,
-				6340925C254B270000BEA380 /* SceneDelegate.swift */,
-				6340925E254B270000BEA380 /* ViewController.swift */,
-				63409260254B270000BEA380 /* Main.storyboard */,
-				63409266254B270400BEA380 /* Assets.xcassets */,
-				63409268254B270400BEA380 /* LaunchScreen.storyboard */,
+				63111CDA254C7A5500B99A61 /* Data Object */,
+				63A368C6254BD5600081A170 /* Network Call */,
+				63A368B1254B806D0081A170 /* Custome Cell */,
+				63A368A4254B6CBD0081A170 /* Views */,
+				63409296254B4D5900BEA380 /* PlasticHavas-Bridging-Header.h */,
+				6312C726254B622900C646AC /* JsonModel */,
+				6312C724254B61A900C646AC /* Core Data */,
+				6312C720254B616F00C646AC /* Helper FIles */,
+				6312C71F254B615E00C646AC /* Supporting files */,
+				6312C719254B611E00C646AC /* Swift ViewControllers */,
+				6312C718254B60F500C646AC /* OBJC ViewController  */,
 				6340926B254B270400BEA380 /* Info.plist */,
-				63409263254B270000BEA380 /* PlasticHavas.xcdatamodeld */,
 			);
 			path = PlasticHavas;
 			sourceTree = "<group>";
@@ -129,6 +216,32 @@
 				63409281254B270500BEA380 /* Info.plist */,
 			);
 			path = PlasticHavasUITests;
+			sourceTree = "<group>";
+		};
+		63A368A4254B6CBD0081A170 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63111CF5254CF80400B99A61 /* CustomImageView.swift */,
+				63409260254B270000BEA380 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63A368B1254B806D0081A170 /* Custome Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63A368B2254B8B750081A170 /* RedditPostTableViewCell.swift */,
+				63A368B3254B8B750081A170 /* redditPostTableViewCell.xib */,
+			);
+			path = "Custome Cell";
+			sourceTree = "<group>";
+		};
+		63A368C6254BD5600081A170 /* Network Call */ = {
+			isa = PBXGroup;
+			children = (
+				63A368C1254BD5570081A170 /* NetworkCall.swift */,
+			);
+			path = "Network Call";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +311,7 @@
 				TargetAttributes = {
 					63409256254B270000BEA380 = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 					6340926F254B270500BEA380 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -235,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6340926A254B270400BEA380 /* LaunchScreen.storyboard in Resources */,
+				63A368B5254B8B750081A170 /* redditPostTableViewCell.xib in Resources */,
 				63409267254B270400BEA380 /* Assets.xcassets in Resources */,
 				63409262254B270000BEA380 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +377,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				63409265254B270000BEA380 /* PlasticHavas.xcdatamodeld in Sources */,
-				6340925F254B270000BEA380 /* ViewController.swift in Sources */,
+				63111CDD254C7AC200B99A61 /* RedditPost.m in Sources */,
+				63111CEE254CEF8200B99A61 /* DetailVC.swift in Sources */,
+				63A368C2254BD5570081A170 /* NetworkCall.swift in Sources */,
+				6312C711254B5D4100C646AC /* HelperCodable.swift in Sources */,
+				6312C728254B62AB00C646AC /* RedditPost.swift in Sources */,
 				6340925B254B270000BEA380 /* AppDelegate.swift in Sources */,
+				63111CF6254CF80400B99A61 /* CustomImageView.swift in Sources */,
+				63A368B4254B8B750081A170 /* RedditPostTableViewCell.swift in Sources */,
 				6340925D254B270000BEA380 /* SceneDelegate.swift in Sources */,
+				6340929C254B4D5D00BEA380 /* ViewControllerInOBJC.m in Sources */,
+				63111CFB254CF8BB00B99A61 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +563,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3GLSZRZ9TE;
 				INFOPLIST_FILE = PlasticHavas/Info.plist;
@@ -449,6 +573,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dfservices.PlasticHavas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlasticHavas/PlasticHavas-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,6 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3GLSZRZ9TE;
 				INFOPLIST_FILE = PlasticHavas/Info.plist;
@@ -468,6 +595,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dfservices.PlasticHavas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlasticHavas/PlasticHavas-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
